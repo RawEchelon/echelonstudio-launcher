@@ -1,0 +1,18 @@
+{
+  "name": "echelonstudio-launcher",
+  "version": "1.0.0",
+  "description": "EchelonStudio - Minecraft Launcher for FroziaMc and DrakkarMC",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "npm run build && concurrently \"npm run server\" \"npm run client\"",
+    "build": "vite build",
+    "client": "vite",
+    "server": "node server/index.js",
+    "electron": "npm run build && electron .",
+    "electron:build": "electron-builder",
+    "electron:dist": "npm run build && electron-builder --publish=never"
+  },
+  "keywords": ["minecraft", "launcher", "frozia", "drakkar", "electron"],
+  "author": "RawEchelon",
+  "license": "MIT"
+}
