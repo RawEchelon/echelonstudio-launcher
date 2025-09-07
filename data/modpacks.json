@@ -1,0 +1,48 @@
+[
+  {
+    "id": "test-modpack-1757252383112",
+    "name": "Test Modpack",
+    "version": "1.0.0",
+    "description": "A test modpack",
+    "minecraftVersion": "1.19.2",
+    "forgeVersion": null,
+    "mods": [
+      {
+        "name": "JEI",
+        "version": "11.0.0",
+        "required": true
+      }
+    ],
+    "author": "TestUser",
+    "createdAt": "2025-09-07T13:39:43.112Z",
+    "downloads": 0
+  },
+  {
+    "id": "froziacraft-magic-pack-1757252556816",
+    "name": "FroziaCraft Magic Pack",
+    "version": "2.0.0",
+    "description": "Un modpack magique pour FroziaCraft avec des mods de magie et exploration",
+    "minecraftVersion": "1.19.2",
+    "forgeVersion": "43.2.0",
+    "mods": [
+      {
+        "name": "JEI",
+        "version": "11.0.0",
+        "required": true
+      },
+      {
+        "name": "Thaumcraft",
+        "version": "6.1.0",
+        "required": true
+      },
+      {
+        "name": "Botania",
+        "version": "1.19.2-440",
+        "required": false
+      }
+    ],
+    "author": "RawEchelon",
+    "createdAt": "2025-09-07T13:42:36.816Z",
+    "downloads": 0
+  }
+]
